@@ -8,19 +8,20 @@
   text-align: center;
   color: rgb(255, 198, 198);
 }
+
 .Section {
   height: 100vh;
   background: rgb(70, 64, 64);
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 .hoodRecent{
   float: left;
-  width: 50%;
+  width: 49%;
 }
 
 .officerSearch{
   float: right;
-  width: 50%;
+  width: 49%;
 }
 ul {
   list-style: none
