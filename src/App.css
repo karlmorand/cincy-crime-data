@@ -1,24 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  color: rgb(255, 198, 198);
+}
+.Section {
+  height: 100vh;
+  background: rgb(70, 64, 64);
+  border: 2px solid black;
+}
+.hoodRecent{
+  float: left;
+  width: 50%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.officerSearch{
+  float: right;
+  width: 50%;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+ul {
+  list-style: none
 }

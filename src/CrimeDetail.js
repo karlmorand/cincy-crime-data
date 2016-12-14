@@ -5,9 +5,10 @@ class CrimeDetail extends Component{
     super(props)
   }
   render(){
-    return(
-      <p>{this.props.crime.offense}</p>
-    )
+    let crimeDate = new Date(this.props.crime['occurredon'])
+    crimeDate.setHours(crimeDate.getUTCHours())
+    // let crimeDate = new Date(this.props.crime['occurred_on'])
+    return <li>{`${this.props.crime['offense']} : ${crimeDate}`}</li>
 
   }
 }
