@@ -6,6 +6,8 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "google-maps-react": "^1.0.19",
+    "node-geocoder": "^3.15.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "soda-js": "^0.2.2",

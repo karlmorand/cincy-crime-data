@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
 class FrequentCrimesList extends Component {
-  constructor() {
-    super()
 
-  }
   render(){
     if (this.props.crimes.length === 0) {
       return null
@@ -26,7 +23,7 @@ class FrequentCrimesList extends Component {
     return(
       <ul>
         {crimeArr.map(rec=>
-          <li>{`${rec.crime} : ${rec.count}`}</li>
+          <li key={rec.crime}>{`${rec.crime} : ${rec.count}`}</li>
         )}
       </ul>
    )

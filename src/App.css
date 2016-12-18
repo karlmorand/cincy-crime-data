@@ -10,18 +10,11 @@
 }
 
 .Section {
-  height: 100vh;
+  /*height: 50%;*/
   background: rgb(70, 64, 64);
+  width: 80%;
   /*border: 2px solid black;*/
-}
-.hoodRecent{
-  float: left;
-  width: 49%;
-}
-
-.officerSearch{
-  float: right;
-  width: 49%;
+  margin: 0 auto;
 }
 ul {
   list-style: none

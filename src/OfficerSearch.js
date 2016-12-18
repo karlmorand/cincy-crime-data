@@ -32,7 +32,6 @@ class OfficerSearch extends Component {
   today = today.toISOString().split('.')[0]
   startDate = startDate.toISOString().split('.')[0]
 
-  let dateSelection = `&$where=occurredon between '${startDate}' and '${today}'`
   let officerName = `&$where=UPPER(reportedbyofficer) like '%25${name.toUpperCase()}%25'`
     fetch(this.urlbase+officerName)
        .then(function(response){
